@@ -1,0 +1,65 @@
+body {
+  background-image: url("/Project2/Perfect-Poetry/Main/public/images/poetry.jpeg"); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 200vh;
+}
+
+.login-title, .signup-title {
+  border: solid 2px black;
+  width: 80%;
+  padding: 0 3rem; 
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgb(181, 181, 181);
+}
+
+.login-form, .signup-form {
+  border: solid 3px black;
+  width: 80%;
+  padding: 2rem 3rem;
+  border-radius: 5%;
+  background-color: rgb(180, 178, 178);
+  opacity: 0.8;
+}
+
+.form-group {
+  display: flex;
+  /* border: solid 2px black; */
+  width: 100%;
+  padding: 1rem;
+}
+
+.form-group label{
+  /* border: solid 1px black; */
+  width: 18%;
+  text-align: right;
+  margin-right: 0.50rem;
+}
+
+.form-group button {
+  margin: 0 auto;
+}
+
+.new-playlist-form{
+  border: solid 3px black;
+  width: 33%;
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  background-color: rgb(180, 178, 178);
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+
+
