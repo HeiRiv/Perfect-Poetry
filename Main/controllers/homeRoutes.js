@@ -18,7 +18,7 @@ router.get('/', async (req, res) => {
     const poems = poetryData.map((poetry) => poetry.get({ plain: true }));
 
     // Pass serialized data and session flag into template
-    res.render('homepage', {
+    res.render('login', {
       poems,
       logged_in: req.session.logged_in,
     });

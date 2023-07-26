@@ -8,17 +8,13 @@ Registering on Perfect Poetry is a simple process that opens the doors to a worl
 
 ## Achievements
 
-
 ## Final Product
 
- 
-😄 Please see below a quick view of the website 😄 
-
-
+😄 Please see below a quick view of the website 😄
 
 - This is the link for the webpage to view on more detail: https://heiriv.github.io/My-portfolio/
 
-## Credits 
+## Credits
 
 Awesome documents used for better understanding to develop the project,
 
