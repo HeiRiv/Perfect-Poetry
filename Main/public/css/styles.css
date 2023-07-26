@@ -1,5 +1,5 @@
 body {
-  background-image: url("/Project2/Perfect-Poetry/Main/public/images/poetry.jpeg"); 
+  background-image: url("/images/poetry.jpeg"); 
   background-repeat: no-repeat; 
   background-position: center;
   background-attachment: fixed;
@@ -10,8 +10,20 @@ body {
   height: 200vh;
 }
 
+h1{
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2{
+  text-align: center;
+  color: white; 
+}
 .login-title, .signup-title {
-  border: solid 2px black;
+  border: solid 2px white;
   width: 80%;
   padding: 0 3rem; 
   border-radius: 5%;
@@ -20,7 +32,7 @@ body {
 }
 
 .login-form, .signup-form {
-  border: solid 3px black;
+  border: solid 3px white;
   width: 80%;
   padding: 2rem 3rem;
   border-radius: 5%;
@@ -47,7 +59,7 @@ body {
 }
 
 .new-playlist-form{
-  border: solid 3px black;
+  border: solid 3px white;
   width: 33%;
   padding: 1rem 2rem;
   border-radius: 5%;
