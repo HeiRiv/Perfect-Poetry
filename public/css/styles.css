@@ -46,20 +46,9 @@ body {
   margin: 0 auto;
 }
 
-.new-playlist-form{
-  border: solid 3px black;
-  width: 33%;
-  padding: 1rem 2rem;
-  border-radius: 5%;
-  background-color: rgb(180, 178, 178);
-  opacity: 0.8;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
+.save-poem {
+  display: none;
 }
-
 
 
 
