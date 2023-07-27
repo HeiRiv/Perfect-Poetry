@@ -1,0 +1,138 @@
+body {
+  background-image: url("/images/poetry.jpeg"); 
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  height: 200vh;
+}
+
+h1{
+  color: white;
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h2{
+  text-align: center;
+  color: white; 
+}
+h3{
+    text-align: center;
+    color: white; 
+}
+
+p{
+  font-weight: bold;
+  color: black;
+}
+.login-title, .signup-title {
+<<<<<<< HEAD
+  border: solid 2px whitesmoke;
+  width: 50%;
+  padding: 0 1rem; 
+=======
+  border: solid 2px white;
+  width: 80%;
+  padding: 0 3rem; 
+>>>>>>> a9b42f204a58ed1f7ded59b5ac786b4063988c0e
+  border-radius: 5%;
+  text-align: center;
+  background-color: rgb(181, 181, 181);
+}
+
+.login-form, .signup-form {
+<<<<<<< HEAD
+  border: solid 2px whitesmoke;
+=======
+  border: solid 3px white;
+>>>>>>> a9b42f204a58ed1f7ded59b5ac786b4063988c0e
+  width: 80%;
+  padding: 1rem 2rem;
+  border-radius: 8%;
+  background-color: rgb(180, 178, 178);
+  opacity: 0.8;
+}
+
+.title{
+  color: rgb(172, 192, 209);
+  font-family: cursive;
+  text-align: center;
+}
+
+.welcome, .h3{
+  color:   rgb(117, 189, 99);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.poems{
+  color:  rgb(117, 189, 99);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: whitesmoke;
+  opacity: 0.8;
+}
+
+.form-group, .poem-title{
+  color: black;
+  font-weight: 1000;
+  font-style: bold;
+}
+
+.poetry{
+  border-radius: 2%;
+  text-align: center;
+  opacity: 0.8;
+  background-image: url(../images/poem.jpeg);
+}
+
+.form-group {
+  display: flex;
+  /* border: solid 2px black; */
+  width: 100%;
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+}
+
+.form-group label{
+  /* border: solid 1px black; */
+  width: 18%;
+  text-align: right;
+  margin-right: 0.50rem;
+}
+
+.form-group button {
+  margin: 0 auto;
+}
+
+<<<<<<< HEAD
+=======
+.new-playlist-form{
+  border: solid 3px white;
+  width: 33%;
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  background-color: rgb(180, 178, 178);
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.save-poem {
+  display: none;
+}
+>>>>>>> a9b42f204a58ed1f7ded59b5ac786b4063988c0e
+
+
+
+
