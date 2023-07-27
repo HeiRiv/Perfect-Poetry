@@ -35,13 +35,13 @@ body {
 }
 
 .welcome, .h3{
-  color:  rgb(224, 188, 237);
+  color:   rgb(117, 189, 99);
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .poems{
-  color:  rgb(149, 112, 205);
+  color:  rgb(117, 189, 99);
   text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   border: whitesmoke;
@@ -52,6 +52,13 @@ body {
   color: black;
   font-weight: 1000;
   font-style: bold;
+}
+
+.poetry{
+  border-radius: 2%;
+  text-align: center;
+  opacity: 0.8;
+  background-image: url(../images/poem.jpeg);
 }
 
 .form-group {

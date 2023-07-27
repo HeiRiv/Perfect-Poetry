@@ -42,8 +42,8 @@ document
   .addEventListener('submit', newFormHandler);
 
 let poemList;
-poemList = document.querySelector('.poem-list');
-
+poemList = document.querySelector('.poems');
+console.log(poemList);
 if (poemList) {
   poemList.addEventListener('click', delButtonHandler);
 }

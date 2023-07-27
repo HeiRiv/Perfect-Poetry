@@ -18,7 +18,7 @@
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
         <a href="/profile">Profile</a> |
-        <button class="no-button" id="logout">Logout</button>
+        <a href="/login" id="logout">Logout</a>
         {{else}}
         <a href="/login">Login</a>
         {{/if}}
