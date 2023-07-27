@@ -8,14 +8,7 @@ Registering on Perfect Poetry is a simple process that opens the doors to a worl
 
 ## Achievements
 
-- Debug the code and understand the files accordingly to our needs
-- Added style and pictures following an specific design 
-- Added the paragraphs and titles/subtitles for each section
-- Divided the html file following the correct structure 
-- Orginized the div's, id's and classes on the CSS to give my portfolio a good structure
-- Setted up the buttons with background images and make them work properly when clicking them 
-- placed my email with a link so when clicking on it you will be redirected to a ''new email'' so you can send me an email.
-- Made the elements on the main bar interactive so when clicking on them will take you directly to the topic. 
+- 
 
 ## Final Product
 
