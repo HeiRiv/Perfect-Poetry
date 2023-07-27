@@ -8,7 +8,7 @@ Registering on Perfect Poetry is a simple process that opens the doors to a worl
 
 ## Achievements
 
-- 
+Creating a responsive website using Node.js, Express.js, and Handlebars, with GET and POST routes for a poems database, has been a rewarding and fulfilling journey. Through careful planning, implementation, and testing, We successfully delivered a user-friendly platform where users can explore, contribute, and appreciate poetry. This project has enriched our skills as a web developer and further fueled our passion for building innovative web applications.
 
 ## Final Product
 
