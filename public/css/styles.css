@@ -10,48 +10,19 @@ body {
   height: 200vh;
 }
 
-h1{
-  color: white;
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
-h2{
-  text-align: center;
-  color: white; 
-}
-h3{
-    text-align: center;
-    color: white; 
-}
-
-p{
-  font-weight: bold;
-  color: black;
-}
 .login-title, .signup-title {
-<<<<<<< HEAD
   border: solid 2px whitesmoke;
   width: 50%;
   padding: 0 1rem; 
-=======
-  border: solid 2px white;
-  width: 80%;
-  padding: 0 3rem; 
->>>>>>> a9b42f204a58ed1f7ded59b5ac786b4063988c0e
   border-radius: 5%;
   text-align: center;
   background-color: rgb(181, 181, 181);
 }
 
 .login-form, .signup-form {
-<<<<<<< HEAD
   border: solid 2px whitesmoke;
-=======
-  border: solid 3px white;
->>>>>>> a9b42f204a58ed1f7ded59b5ac786b4063988c0e
+  color: black;
   width: 80%;
   padding: 1rem 2rem;
   border-radius: 8%;
@@ -97,8 +68,7 @@ p{
   /* border: solid 2px black; */
   width: 100%;
   padding: 2%;
-  color: white;
-  font-weight: bold;
+  color: black;
 }
 
 .form-group label{
@@ -112,26 +82,7 @@ p{
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-=======
-.new-playlist-form{
-  border: solid 3px white;
-  width: 33%;
-  padding: 1rem 2rem;
-  border-radius: 5%;
-  background-color: rgb(180, 178, 178);
-  opacity: 0.8;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 
-}
-
-.save-poem {
-  display: none;
-}
->>>>>>> a9b42f204a58ed1f7ded59b5ac786b4063988c0e
 
 
 
