@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfect Poetry</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/jass.css">
+</head>
+
 <div class="row">
   <div class="welcome col-auto">
     <h2>Welcome {{name}}, let's create some Poetry!</h2>
@@ -6,12 +18,12 @@
 
     <form class="form new-poem-form">
       <div class="form-group">
-        <label for="poem-title">Poem title:</label>
+        <label for="poem-title">Poem Title:</label>
         <input class="form-input" type="text" id="poem-title" name="poem-title" />
       </div>
 
       <div class="form-group">
-        <label for="poem-body">Start here...</label>
+        <label for="poem-body">Summary...</label>
         <textarea class="form-input" id="poem-body" name="poem-body"></textarea>
       </div>
       <div class="form-group">
@@ -33,10 +45,7 @@
         <button class="btn btn-sm btn-danger" data-id="{{poetry.id}}">DELETE</button>
       </div>
     </div>
-    {{/each}}
-  </div>
-  {{/if}}
-</div>
+
 
 <script src="/js/profile.js"></script>
 
