@@ -1,20 +1,14 @@
 <div class="row">
-  <div class="col-auto">
-    <h2>Welcome, {{name}}!</h2>
+  <div class="welcome col-auto">
+    <h2>Welcome {{name}}, let's create some Poetry!</h2>
   </div>
 </div>
-
-<div class="row mt-4">
-  <div class="col-md-6">
-    <h3>Let's create Poetry!</h3>
 
     <form class="form new-poem-form">
       <div class="form-group">
         <label for="poem-title">Poem title:</label>
         <input class="form-input" type="text" id="poem-title" name="poem-title" />
       </div>
-
-      {{!--INSPO???--}}
 
       <div class="form-group">
         <label for="poem-body">Start here...</label>
@@ -26,11 +20,11 @@
     </form>
   </div>
 
-  {{#if Poetry.length}}
-  <div class="col-md-6 poem-list">
+  {{#if poetry.length}}
+  <div class="poems row">
     <h3>Your poems:</h3>
 
-    {{#each Poetry as |Poetry|}}
+    {{#each poetry as |poetry|}}
     <div class="row mb-2">
       <div class="col-md-8">
         <h4><a href="/poetry/{{poetry.id}}">{{poetry.name}}</a></h4>
@@ -44,5 +38,5 @@
   {{/if}}
 </div>
 
-<script src="./js/profile.js"></script>
+<script src="/js/profile.js"></script>
 

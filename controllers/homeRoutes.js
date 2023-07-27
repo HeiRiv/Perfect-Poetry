@@ -39,8 +39,8 @@ router.get('/poetry/:id', async (req, res) => {
     });
 
     const poetry = poetryData.get({ plain: true });
-
-    res.render('poetry', {
+    console.log(poetry);
+    res.render('poems', {
       ...poetry,
       logged_in: req.session.logged_in,
     });
@@ -60,6 +60,7 @@ router.get('/profile', withAuth, async (req, res) => {
 
     const user = userData.get({ plain: true });
 
+    console.log(user);
     res.render('profile', {
       ...user,
       logged_in: true,

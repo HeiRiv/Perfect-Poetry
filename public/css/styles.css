@@ -11,21 +11,47 @@ body {
 }
 
 .login-title, .signup-title {
-  border: solid 2px black;
-  width: 80%;
-  padding: 0 3rem; 
+  border: solid 2px whitesmoke;
+  width: 50%;
+  padding: 0 1rem; 
   border-radius: 5%;
   text-align: center;
   background-color: rgb(181, 181, 181);
 }
 
 .login-form, .signup-form {
-  border: solid 3px black;
+  border: solid 2px whitesmoke;
   width: 80%;
-  padding: 2rem 3rem;
-  border-radius: 5%;
+  padding: 1rem 2rem;
+  border-radius: 8%;
   background-color: rgb(180, 178, 178);
   opacity: 0.8;
+}
+
+.title{
+  color: rgb(172, 192, 209);
+  font-family: cursive;
+  text-align: center;
+}
+
+.welcome, .h3{
+  color:  rgb(224, 188, 237);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.poems{
+  color:  rgb(149, 112, 205);
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border: whitesmoke;
+  opacity: 0.8;
+}
+
+.form-group, .poem-title{
+  color: black;
+  font-weight: 1000;
+  font-style: bold;
 }
 
 .form-group {
@@ -46,9 +72,6 @@ body {
   margin: 0 auto;
 }
 
-.save-poem {
-  display: none;
-}
 
 
 
