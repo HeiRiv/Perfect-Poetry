@@ -2,9 +2,9 @@ const User = require('./User');
 const Poetry = require('./Poetry');
 let savePoemBtn = undefined;
 
-if (window.location.pathname === '/profile') {
-  savePoemBtn = document.querySelector('.save-poem');
-};
+//if (window.location.pathname === '/profile') {
+//  savePoemBtn = document.querySelector('.save-poem');
+//};
 
 
 
@@ -43,9 +43,9 @@ const handlePoemSave = () => {
   });
 };
 
-if (window.location.pathname === '/profile') {
-  savePoemBtn.addEventListener('click', handlePoemSave);
-};
+// if (window.location.pathname === '/profile') {
+//   savePoemBtn.addEventListener('click', handlePoemSave);
+// };
 
 
 module.exports = { User, Poetry };
